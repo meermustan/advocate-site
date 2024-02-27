@@ -1,0 +1,23 @@
+import userModel from "./user.js";
+import tokenModel from "./token.js";
+import logModel from "./log.js";
+import profileModel from "./profile.js";
+import jobModel from "./job.js";
+import ProposalModel from "./proposal.js";
+import ChatModal from "./chat.js";
+import ReviewModal from "./reviews.js";
+import ContractModal from "./contract.js";
+import NotificationModal from "./notification.js";
+import VerificationModel from "./verification.js";
+
+export const Review = ReviewModal;
+export const Contract = ContractModal;
+export const Notification = NotificationModal;
+export const User = userModel;
+export const Token = tokenModel;
+export const Log = logModel;
+export const Job = jobModel;
+export const Profile = profileModel;
+export const Proposal = ProposalModel;
+export const Chat = ChatModal;
+export const Verification = VerificationModel;
